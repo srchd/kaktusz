@@ -13,3 +13,22 @@ std::istream& operator>>(std::istream& is, Cactus& c) {
 
 	return is;
 }
+
+in_file::in_file() {
+
+}
+in_file::~in_file() {
+	_f.close();
+}
+void in_file::first() {
+	next();
+}
+void in_file::next() {
+
+}
+Cactus in_file::current() const {
+	return _e;
+}
+bool in_file::is_end() const {
+	return _st == abnorm;
+}

@@ -16,4 +16,22 @@ struct Cactus {
 	friend std::istream& operator>>(std::istream& is, Cactus& c);
 };
 
+class in_file {
+public:
+	in_file();//open
+	~in_file();//close
+	void first();
+	void next();
+	Cactus current() const;
+	bool is_end() const;
+	enum Status{norm, abnorm};
+
+protected:
+
+private:
+	Status _st;
+	Cactus _e;
+	std::ifstream _f;
+};
+
 #endif // IN_FILE_H
