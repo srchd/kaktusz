@@ -9,7 +9,7 @@ int main(){
     try {
         Cactus elem;
         if (tallest_mexican("input.txt", elem)) {
-            cout << "A legmagasabb mexikoi kaktusz: " << elem << endl;
+            cout << "A legmagasabb mexikoi kaktusz: \n" << elem << endl;
         }
         else
             cout << "noncs" << endl;
