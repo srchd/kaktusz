@@ -18,18 +18,19 @@ struct Cactus {
 
 class in_file {
 public:
-	in_file();//open
+	in_file(const std::string& file_name);//open
 	~in_file();//close
 	void first();
 	void next();
 	Cactus current() const;
 	bool is_end() const;
 	enum Status{norm, abnorm};
+	enum Error{OPEN_ERROR};
 
 protected:
 
 private:
-	Status _st;
+	Status _st = norm;
 	Cactus _e;
 	std::ifstream _f;
 };
