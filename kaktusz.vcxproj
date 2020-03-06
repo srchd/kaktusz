@@ -149,9 +149,11 @@
   <ItemGroup>
     <ClCompile Include="in_file.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="out_file.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="in_file.h" />
+    <ClInclude Include="out_file.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
