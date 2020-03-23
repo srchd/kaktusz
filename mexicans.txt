@@ -1,0 +1,8 @@
+Nev: Honalj
+Oshaza: Mexiko
+Virag: Sarga
+Magassag: 30
+Nev: Ez Nem Mexikoi
+Oshaza: Mexiko
+Virag: esku nem zold
+Magassag: 98765432

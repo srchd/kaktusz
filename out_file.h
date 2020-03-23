@@ -7,14 +7,10 @@ class out_file {
 public:
 	out_file(const std::string& file_name);//open
 	~out_file();//close
-	void write();
-	enum Status { norm, abnorm };
+	void write(const Cactus& c);
 	enum Error { OPEN_ERROR };
 
-protected:
-
 private:
-	Status _st = norm;
 	//Cactus _e;
 	std::ofstream _f;
 };

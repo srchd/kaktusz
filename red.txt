@@ -1,0 +1,4 @@
+Nev: Ez egy emlos
+Oshaza: Viz
+Virag: piros
+Magassag: 45

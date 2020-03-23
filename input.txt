@@ -1,12 +1,12 @@
-Labszag
-Zoknidban
-Sarga
+Ez egy emlos
+Viz
+piros
 45
-Honaljszag
+Honalj
 Mexiko
 Sarga
 30
-Ez Nem Mexikoi esku geccccccccccccccccccccccccccccc
+Ez Nem Mexikoi
 Mexiko
 esku nem zold
 98765432
